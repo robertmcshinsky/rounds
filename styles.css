@@ -1,0 +1,33 @@
+iframe {
+  display: inline;
+  text-align: center;
+  width: 19%;
+  height: 500px;
+  padding: 4px;
+  border-radius: 20px;
+}
+body {
+  text-align: center;
+}
+h1 {
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 80px;
+}
+a:hover {
+  color: rgb(0, 139, 139);
+}
+h1 #blue {
+  color: rgb(0, 139, 139);
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    display: inline;
+    text-align: center;
+    width: 90%;
+    padding: 4px;
+  }
+}
